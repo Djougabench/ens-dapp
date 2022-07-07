@@ -124,7 +124,7 @@ export default function Home() {
         </div>
       </div>
 
-      <footer className={styles.footer}></footer>
+      <footer className={styles.footer}>ENS Dapp 2022</footer>
     </div>
   );
 }

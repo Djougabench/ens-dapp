@@ -111,9 +111,7 @@ export default function Home() {
       </Head>
       <div className={styles.main}>
         <div>
-          <h1 className={styles.title}>
-            Welcome to LearnWeb3 Punks {ens ? ens : address}!
-          </h1>
+          <h1 className={styles.title}>Welcome {ens ? ens : address}!</h1>
           <div className={styles.description}>
             Its an NFT collection for LearnWeb3 Punks.
           </div>
